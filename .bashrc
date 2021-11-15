@@ -14,6 +14,7 @@ alias grep='grep --color=auto'
 alias find='find $* 2> /dev/null'
 alias pid='ps -ef|grep -v grep|grep $1'
 alias .s='source ~/.bashrc'
+alias home='cd ~'
 
 #get into tmux
 #http://bionicraptor.ca/2011/07/24/automatically-start-tmux/
